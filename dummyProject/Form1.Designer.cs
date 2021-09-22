@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtValue = new System.Windows.Forms.TextBox();
             this.btnCalculator = new System.Windows.Forms.Button();
+            this.btnAd = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNext
@@ -115,11 +116,22 @@
             this.btnCalculator.UseVisualStyleBackColor = true;
             this.btnCalculator.Click += new System.EventHandler(this.btnCalculator_Click);
             // 
+            // btnAd
+            // 
+            this.btnAd.Location = new System.Drawing.Point(26, 162);
+            this.btnAd.Name = "btnAd";
+            this.btnAd.Size = new System.Drawing.Size(75, 23);
+            this.btnAd.TabIndex = 7;
+            this.btnAd.Text = "AD free";
+            this.btnAd.UseVisualStyleBackColor = true;
+            this.btnAd.Click += new System.EventHandler(this.btnAd_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(331, 273);
+            this.Controls.Add(this.btnAd);
             this.Controls.Add(this.btnCalculator);
             this.Controls.Add(this.txtValue);
             this.Controls.Add(this.label2);
@@ -144,6 +156,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtValue;
         private System.Windows.Forms.Button btnCalculator;
+        private System.Windows.Forms.Button btnAd;
     }
 }
 

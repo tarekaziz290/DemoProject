@@ -9,3 +9,4 @@ C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProjec
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.pdb
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.next.resources
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.Calculator.resources
+C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.Welcome.resources

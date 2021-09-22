@@ -136,6 +136,24 @@ namespace dummyProject
             }
         }
 
+        private void btnAd_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you want to use features?", "Owner Use", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                if (x >= 40)
+                {
+                    x = x - 40;
+                    Welcome fl = new Welcome();
+                    fl.Visible = true;
+                    this.Visible = false;
+                }
+                else
+                {
+                    MessageBox.Show("you have not enough point ");
+                }
+            }
+        }
+
       
 
 
