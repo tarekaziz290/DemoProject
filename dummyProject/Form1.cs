@@ -95,13 +95,13 @@ namespace dummyProject
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            
 
-            if (MessageBox.Show("Are you want to use features?", "Owner Use", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+
+            if (MessageBox.Show("Are you want to use features?\n you need spend 30 points", "User Service", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                if (x >= 50)
+                if (x >= 30)
                 {
-                    x = x - 50;
+                    x = x - 30;
                     next fl = new next();
                     fl.Visible = true;
                     this.Visible = false;
@@ -120,11 +120,11 @@ namespace dummyProject
 
         private void btnCalculator_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you want to use features?", "Owner Use", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Are you want to use features?\n you need spend 50 points", "User Service", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                if (x >= 30)
+                if (x >= 50)
                 {
-                    x = x - 30;
+                    x = x - 50;
                     Calculator fl = new Calculator();
                     fl.Visible = true;
                     this.Visible = false;
@@ -138,11 +138,11 @@ namespace dummyProject
 
         private void btnAd_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you want to use features?", "Owner Use", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Are you want to use features?\n you need spend 80 points", "User Service", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                if (x >= 40)
+                if (x >= 80)
                 {
-                    x = x - 40;
+                    x = x - 80;
                     Welcome fl = new Welcome();
                     fl.Visible = true;
                     this.Visible = false;
@@ -152,6 +152,11 @@ namespace dummyProject
                     MessageBox.Show("you have not enough point ");
                 }
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
 
       

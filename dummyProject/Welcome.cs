@@ -56,6 +56,7 @@ namespace dummyProject
             Form1 fl = new Form1();
             fl.Visible = true;
             this.Visible = false;
+            this.timer1.Stop();
         }
 
         private void Welcome_FormClosed(object sender, FormClosedEventArgs e)

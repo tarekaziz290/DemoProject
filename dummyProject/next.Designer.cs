@@ -34,12 +34,14 @@
             // 
             // btnBack
             // 
+            this.btnBack.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBack.ForeColor = System.Drawing.Color.Black;
             this.btnBack.Location = new System.Drawing.Point(0, 2);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 0;
             this.btnBack.Text = "Back";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // label1
@@ -47,16 +49,18 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(97, 124);
+            this.label1.Location = new System.Drawing.Point(37, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 20);
+            this.label1.Size = new System.Drawing.Size(189, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Welcome ";
+            this.label1.Text = "Welcome to Test Page";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // next
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBack);
