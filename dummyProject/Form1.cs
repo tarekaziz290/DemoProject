@@ -23,7 +23,7 @@ namespace dummyProject
         {
             if (this.cmbSelect.SelectedItem.ToString() == "Location")
             {
-                x= x+10;
+                x= x+5;
 
 
             }
@@ -34,39 +34,39 @@ namespace dummyProject
 
             else if (this.cmbSelect.SelectedItem.ToString() == "Storage")
             {
-                x= x+5;
+                x= x+7.5;
             }
 
             else if (this.cmbSelect.SelectedItem.ToString() == "Contacts")
             {
-                x= x+5;
+                x= x+10;
             }
 
 
             else if (this.cmbSelect.SelectedItem.ToString() == "Calender")
             {
-                x= x+2;
+                x= x+5;
 
             }
 
             else if (this.cmbSelect.SelectedItem.ToString() == "Microphone")
             {
-                x= x+10;
+                x= x+5;
 
             }
             else if (this.cmbSelect.SelectedItem.ToString() == "Picture")
             {
-                x= x+15;
+                x= x+12.50;
 
             }
             else if (this.cmbSelect.SelectedItem.ToString() == "Video")
             {
-                x= x+20;
+                x= x+12.50;
 
             }
             else if (this.cmbSelect.SelectedItem.ToString() == "NID Info")
             {
-                x= x+30;
+                x= x+25;
 
             }
             else if (this.cmbSelect.SelectedItem.ToString() == "BirthCertificate")
@@ -77,13 +77,13 @@ namespace dummyProject
             }
             else if (this.cmbSelect.SelectedItem.ToString() == "Passport")
             {
-                x= x+30;
+                x= x+25;
 
             }
 
             else if (this.cmbSelect.SelectedItem.ToString() == "DrivingLicence")
             {
-                x= x+20;
+                x= x+25;
 
             }
         }
@@ -120,11 +120,11 @@ namespace dummyProject
 
         private void btnCalculator_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you want to use features?\n you need spend 50 points", "User Service", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Are you want to use features?\n you need spend 40 points", "User Service", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                if (x >= 50)
+                if (x >= 40)
                 {
-                    x = x - 50;
+                    x = x - 40;
                     Calculator fl = new Calculator();
                     fl.Visible = true;
                     this.Visible = false;
@@ -138,11 +138,11 @@ namespace dummyProject
 
         private void btnAd_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you want to use features?\n you need spend 80 points", "User Service", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Are you want to use features?\n you need spend 60 points", "User Service", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                if (x >= 80)
+                if (x >= 60)
                 {
-                    x = x - 80;
+                    x = x - 60;
                     Welcome fl = new Welcome();
                     fl.Visible = true;
                     this.Visible = false;
@@ -154,10 +154,7 @@ namespace dummyProject
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
       
 

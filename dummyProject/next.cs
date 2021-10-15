@@ -12,9 +12,12 @@ namespace dummyProject
 {
     public partial class next : Form
     {
+        public int count = 16;
         public next()
-        {
+        {  
             InitializeComponent();
+            string path = "C:\\Users\\TAREK PC\\Desktop\\ProjectImage\\" + count + ".jpg";
+            this.pbox.Image = Image.FromFile(path);
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -32,14 +35,8 @@ namespace dummyProject
             Application.Exit();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
+       
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }
