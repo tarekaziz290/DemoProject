@@ -91,6 +91,7 @@ namespace dummyProject
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             this.txtValue.Text = x.ToString();
+            
         }
 
         private void btnNext_Click(object sender, EventArgs e)
