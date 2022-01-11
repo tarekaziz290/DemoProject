@@ -1,7 +1,6 @@
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\bin\Debug\dummyProject.exe.config
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\bin\Debug\dummyProject.exe
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\bin\Debug\dummyProject.pdb
-C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.csprojResolveAssemblyReference.cache
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.Form1.resources
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.Properties.Resources.resources
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.csproj.GenerateResource.Cache
@@ -10,3 +9,7 @@ C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProjec
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.next.resources
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.Calculator.resources
 C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.Welcome.resources
+C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.csproj.AssemblyReference.cache
+C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.csproj.CoreCompileInputs.cache
+C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.Login.resources
+C:\Users\TAREK PC\Documents\Visual Studio 2012\Projects\dummyProject\dummyProject\obj\Debug\dummyProject.Registration.resources

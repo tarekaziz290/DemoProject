@@ -37,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
+            this.btnTest = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbox)).BeginInit();
             this.panel2.SuspendLayout();
@@ -87,7 +88,7 @@
             this.button1.BackColor = System.Drawing.Color.Green;
             this.button1.Font = new System.Drawing.Font("Lucida Calligraphy", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(30, 18);
+            this.button1.Location = new System.Drawing.Point(30, 24);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -97,11 +98,12 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnTest);
             this.panel2.Controls.Add(this.btnExit);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(566, 378);
+            this.panel2.Location = new System.Drawing.Point(566, 314);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(134, 94);
+            this.panel2.Size = new System.Drawing.Size(134, 158);
             this.panel2.TabIndex = 4;
             // 
             // btnExit
@@ -115,6 +117,16 @@
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnTest
+            // 
+            this.btnTest.Location = new System.Drawing.Point(30, 91);
+            this.btnTest.Name = "btnTest";
+            this.btnTest.Size = new System.Drawing.Size(75, 23);
+            this.btnTest.TabIndex = 5;
+            this.btnTest.Text = "Test";
+            this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
             // Welcome
             // 
@@ -149,5 +161,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnTest;
     }
 }
