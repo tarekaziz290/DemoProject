@@ -49,7 +49,7 @@ namespace dummyProject
 
 
                 //Insert Code
-                int balance = 0;
+                //int balance = 0;
                     string query = "insert into Users values ('" + this.txtId.Text + "','" + this.txtName.Text + "','" +
                      this.txtPassword.Text + "','0'); ";
 

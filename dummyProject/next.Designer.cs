@@ -53,9 +53,10 @@
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label1.Location = new System.Drawing.Point(101, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 20);
+            this.label1.Size = new System.Drawing.Size(216, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Welcome to Test Page";
+            this.label1.Text = "Welcome to Demo Project";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pbox
             // 

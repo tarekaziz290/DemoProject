@@ -30,8 +30,6 @@ namespace dummyProject
                 MessageBox.Show("Login Successful");
                 this.Visible = false;
                 Form1 wf = new Form1();
-                wf.TId = txtId.Text;
-                wf.ShowDialog();
                 wf.Visible = true;
 
 

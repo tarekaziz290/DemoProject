@@ -43,8 +43,9 @@ namespace dummyProject
 
         public DataAccess()
         {
-            this.Sqlcon = new SqlConnection(@"Data Source=DESKTOP-SGI1TQE;Initial Catalog=projectthesis;Persist Security Info=True;User ID=sa;Password=P@ssword");
+            this.Sqlcon = new SqlConnection(@"Data Source = DESKTOP-G409E95\SQLEXPRESS; Initial Catalog = projectthesis; Integrated Security = True");
             this.Sqlcon.Open();
+            
         }
 
         private void QueryText(string query)

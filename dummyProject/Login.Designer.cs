@@ -29,7 +29,6 @@ namespace dummyProject
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.btnRegistration = new System.Windows.Forms.Button();
@@ -46,7 +45,6 @@ namespace dummyProject
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Gray;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.btnRegistration);
