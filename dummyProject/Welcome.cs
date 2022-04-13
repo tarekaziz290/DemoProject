@@ -22,7 +22,7 @@ namespace dummyProject
         private void Welcome_Load(object sender, EventArgs e)
         {
             this.timer1.Start();
-            string path = "C:\\Users\\TAREK PC\\Desktop\\ProjectImage\\" + count + ".jpg";
+            string path = "D:\\project thesis\\webAppThesis\\dummyProject\\ProjectImage\\" + count + ".jpg";
             this.pbox.Image = Image.FromFile(path);
 
 
@@ -46,7 +46,8 @@ namespace dummyProject
                     this.timer1.Stop();
                     
                 }
-                string path = "C:\\Users\\TAREK PC\\Desktop\\ProjectImage\\" + count + ".jpg";
+                string path = "D:\\project thesis\\webAppThesis\\dummyProject\\ProjectImage\\" + count + ".jpg";
+
                 this.pbox.Image = Image.FromFile(path);
             }
         }

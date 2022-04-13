@@ -16,7 +16,7 @@ namespace dummyProject
         public next()
         {  
             InitializeComponent();
-            string path = "C:\\Users\\TAREK PC\\Desktop\\ProjectImage\\" + count + ".jpg";
+            string path = "D:\\project thesis\\webAppThesis\\dummyProject\\ProjectImage\\" + count + ".jpg";
             this.pbox.Image = Image.FromFile(path);
         }
 

@@ -66,6 +66,7 @@ namespace dummyProject
                 x= x+5;
 
             }
+
             else if (this.cmbSelect.SelectedItem.ToString() == "Picture")
             {
                 x= x+12.50;
